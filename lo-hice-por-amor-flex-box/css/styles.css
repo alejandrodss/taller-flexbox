@@ -11,8 +11,11 @@
   border-radius: 3px;
   height: 400px;
   padding: 30px;
-  /* Declarar flex aquí */
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 /* Elemento hijos */
@@ -21,7 +24,7 @@
   color: #FF5B6F;
   border: 1px solid #FF5B6F;
   border-radius: 3px;
-  height: 140px;
+  height: auto;
   min-width: 140px;  
 
   /* Declarar flex */
@@ -33,6 +36,6 @@
 
 }
 
-.hijo-re-ordenar {
-	order: 1;
-}
+/*.hijo-re-ordenar {
+//	order: 1;
+/}*/

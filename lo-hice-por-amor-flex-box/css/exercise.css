@@ -1,0 +1,40 @@
+.box-profile {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f44283;
+  text-align: center;
+}
+
+.profile-picture img {
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.profile-slogan {
+  font-size: 20px;
+  text-align: center;
+}
+
+.profile-phrase {
+  text-align: center;
+}
+
+.profile-button {
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: strong;
+  border: 1px solid #f44283;
+  background-color: #f44283;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
