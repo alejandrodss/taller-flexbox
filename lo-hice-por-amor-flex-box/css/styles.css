@@ -1,0 +1,38 @@
+
+/******************************************/
+/**************** Flexbox ***************/
+/******************************************/
+
+/* Elemento padre */
+
+.padre-flex {
+  background-color: #FFF8F9;
+  border: 1px solid #FF5B6F;
+  border-radius: 3px;
+  height: 400px;
+  padding: 30px;
+  /* Declarar flex aquí */
+  
+}
+
+/* Elemento hijos */
+
+.hijo-flex {
+  color: #FF5B6F;
+  border: 1px solid #FF5B6F;
+  border-radius: 3px;
+  height: 140px;
+  min-width: 140px;  
+
+  /* Declarar flex */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.hijo-re-ordenar {
+	order: 1;
+}

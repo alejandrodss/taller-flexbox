@@ -1,0 +1,26 @@
+/* Container */
+
+.container {
+  background-color: #fff;
+  /* Shadow */
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.05);
+  -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.05);
+  box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.05);
+  border-radius: 3px;
+  padding: 30px;
+  margin: 30px auto;
+  width: 80%;
+}
+
+/* Texto hijo flex */
+
+.hijo-flex h6 {
+	font-weight: 300;
+	font-weight: 12px;
+	text-transform: uppercase;
+}
+
+.hijo-flex p {
+	font-size: 50px;
+	font-weight: 800;
+}
